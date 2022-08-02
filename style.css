@@ -1,0 +1,96 @@
+body{
+    background-color:#f1f1f1;
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+background-color:#fff;
+border-radius: 0.25rem;
+margin-top:72px;
+display: flex;
+flex-direction: column;
+margin-left: 500px;
+height: 382px;
+width: 344px;
+}
+.peak{
+    width: 100%;
+    height: 100%;
+    background-color:#d9d9d9;
+    opacity: 0.9;
+}
+.big{
+    background-color:#d9d9d9;
+    background-image: url('/image/broken-image.png');
+    background-size: cover;
+    background-position:0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    height:300px;
+    width:100%;
+    box-sizing: content-box;
+}
+.circle{
+    border-radius: 50px;
+    background-color:#d9d9d9;
+    width: 40px;
+    height:40px;
+}
+.header{
+    padding-left:10px;
+}
+.ride{
+    display:flex;
+    flex-direction: row;
+    padding:10px;
+    height: 72px;
+    margin-top:10px;
+
+}
+h4{
+    margin-top:0px;
+    margin-bottom:5px;
+    font-size: 18px;
+    
+    
+}
+p{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size:12px;
+    
+}
+.text{
+    padding-left: 10px;
+    padding-top:5px;
+    font-size:15px;
+    
+}
+.btn_1{
+    margin:10px;
+    color: purple;
+    background-color:#fff;
+    border:1px solid purple;
+    padding: 5px;
+}
+.btn{
+    transition: ease-in-out 300ms;
+}
+.btn_2{
+margin:10px;
+color:goldenrod;
+background-color:#fff;
+border:1px solid goldenrod;
+padding: 5px;
+
+}
+.btn_1:hover{
+    background-color: purple;
+    color:#fff
+}
+.btn_2:hover{
+    background-color:goldenrod;
+    color:#fff
+}
